@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MEMS.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="MEMS" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Toggle MEMS" Clicked="Button_Clicked" />
+        <Label x:Name="TimeEapsed" Text="T: 0s"/>
+        <Label x:Name="accXResult" Text="X: 0"/>
+        <Label x:Name="accYResult" Text="Y: 0"/>
+        <Label x:Name="accZResult" Text="Z: 0"/>
+        <Label x:Name="gyrXResult" Text="X: 0"/>
+        <Label x:Name="gyrYResult" Text="Y: 0"/>
+        <Label x:Name="gyrZResult" Text="Z: 0"/>
+        <Button Text="Save data" Clicked="Save_Clicked" />
+    </StackLayout>
+
+</ContentPage>
